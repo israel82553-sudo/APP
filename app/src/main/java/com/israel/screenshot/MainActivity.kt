@@ -10,7 +10,6 @@ import android.widget.TextView
 import android.graphics.Color
 import android.view.Gravity
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : Activity() {
     private val captureLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
